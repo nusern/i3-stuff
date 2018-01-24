@@ -6,7 +6,7 @@ A script and associated files to notify the i3 user when the battery is in dange
 
 A script to notify the user with `i3-nagbar` that the battery needs to be charged.
 
-* `$DEVICE` is the device found in `/sys/class/power_supply/`*`${DEVICE}`*`/`.
+* `$DEVICE` is the device found in `/sys/class/power_supply/${DEVICE}/`.
 * `$PERCENT` is the percentage at which the warnings will begin to be displayed.
 
 ## i3battery.timer, i3battery.service
