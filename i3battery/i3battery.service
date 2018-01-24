@@ -1,0 +1,8 @@
+[Unit]
+Description=Low and unplugged battery warning for i3
+
+[Service]
+Type=oneshot
+User=usern
+Group=usern
+ExecStart=/home/usern/bin/i3bat.sh
