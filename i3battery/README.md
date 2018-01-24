@@ -13,7 +13,9 @@ A script to notify the user with `i3-nagbar` that the battery needs to be charge
 
 In the absence of *crond*, these can be used with *systemd*.
 
-* `mkdir -p ~/.config/systemd/user`
-* `cp i3battery.{timer,service} ~/.config/systemd/user`
-* `systemd --user enable i3battery.timer`
-* `systemd --user start i3battery.timer`
+```
+mkdir -p ~/.config/systemd/user
+cp i3battery.{timer,service} ~/.config/systemd/user
+systemd --user enable i3battery.timer
+systemd --user start i3battery.timer
+```
