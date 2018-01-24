@@ -20,4 +20,4 @@ systemd --user enable i3battery.timer
 systemd --user start i3battery.timer
 ```
 
-Change `ExecStart= ...` in `i3battery.service` if `i3battery.sh` is to reside somewhere other than `$HOME/bin/`.
+Note that the `ExecStart=%h/bin/i3battery.sh` line in `i3battery.service` expects `i3battery.sh` to reside in `$HOME/bin/`.
