@@ -9,7 +9,7 @@ A script to notify the user with `i3-nagbar` that the battery needs to be charge
 * `$DEVICE` is the device found in `/sys/class/power_supply/${DEVICE}/`.
 * `$PERCENT` is the percentage at which the warnings will begin to be displayed.
 
-## i3battery.timer, i3battery.service
+## i3battery.{timer,service}
 
 In the absence of *crond*, these can be used with *systemd*.
 
