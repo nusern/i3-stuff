@@ -2,5 +2,9 @@
 Description=Periodic check for low and unplugged battery
 
 [Timer]
-OnBootSec=1min
-OnUnitActiveSec=5min
+OnBootSec=2min
+OnUnitActiveSec=2min
+Unit=i3battery.service
+
+[Install]
+WantedBy=timers.target
