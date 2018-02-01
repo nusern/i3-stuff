@@ -1,4 +1,4 @@
-# i3-battery
+# i3battery
 
 A script and associated files to notify the i3 user when the battery is in danger of running out.
 
